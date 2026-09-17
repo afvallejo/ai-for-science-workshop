@@ -1,0 +1,35 @@
+# Review and approve the billable service in Render before deployment.
+# Upload AI_for_science_workshop_v4.zip to this repository's root first.
+services:
+  - type: web
+    name: ai-for-science-workshop
+    runtime: python
+    region: frankfurt
+    plan: starter
+    numInstances: 1
+    branch: main
+    autoDeployTrigger: "off"
+    buildCommand: python deploy/prepare_workshop.py && pip install -r website/requirements.txt
+    startCommand: python deploy/start_workshop.py
+    healthCheckPath: /api/health
+    disk:
+      name: workshop-submissions
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.13.15"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: WORKSHOP_DATA
+        value: /var/data/ai-science-workshop
+      - key: WORKSHOP_REQUIRE_MOUNT
+        value: /var/data
+      - key: WORKSHOP_HOST_KEY
+        generateValue: true
+      - key: WORKSHOP_CREATE_TEST_ROOM
+        value: "true"
+      - key: WORKSHOP_TEST_ROOM_CODE
+        value: SCITEST2
+      - key: WORKSHOP_TEST_ROOM_KEY
+        generateValue: true
