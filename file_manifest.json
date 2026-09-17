@@ -1,8 +1,8 @@
 [
   {
     "path": ".gitignore",
-    "bytes": 75,
-    "sha256": "b15fcdcce19f0ca98c8a527236f7a40cf9caa071992f3ea199e182d0fab9709f"
+    "bytes": 166,
+    "sha256": "e37e0df79e2497322eeb4c1f3b401c7690722c8af9ad70c792c844629b9e161d"
   },
   {
     "path": "Flow_cytometry_demo_brief.md",
@@ -11,13 +11,13 @@
   },
   {
     "path": "Participant_guide.md",
-    "bytes": 4263,
-    "sha256": "726a41915752794c990c7092766d2f9a7513a5c11cc7d802c2f552d8273d65be"
+    "bytes": 4261,
+    "sha256": "f309927bb1c789dc3065253e303f275a2975a04561cfac2eca9969bfa36f12c8"
   },
   {
     "path": "README.md",
-    "bytes": 2159,
-    "sha256": "75f180c8fcfd91b5cf76ee82e0e7f6373430a912a3cde0eb6088af51f56ed7a1"
+    "bytes": 2529,
+    "sha256": "e7a46344f3b3456cf13ba4adae44ae010e940d4de8c51d6dafd213f9a0168d6e"
   },
   {
     "path": "Sources_and_further_reading.md",
@@ -63,5 +63,30 @@
     "path": "slides/Slides_17092026.pptx",
     "bytes": 23848657,
     "sha256": "32e4c672c606bd9ee862a2064277e2fa55d82e6f012e45b45e8bd1f6b622fabf"
+  },
+  {
+    "path": "Resource_links.md",
+    "bytes": 3041,
+    "sha256": "8b65d7892352df9a2d1a366c0840a2643b4f824f1ec45c6bfd2708da15b6e69c"
+  },
+  {
+    "path": "slides/Scientific_resources.pptx",
+    "bytes": 20450,
+    "sha256": "6270524434d13c64109abb38acca5064b58fcaf65e1e002546e5f510e3721643"
+  },
+  {
+    "path": "slides/Scientific_resources.pdf",
+    "bytes": 375651,
+    "sha256": "97f3f3ec22bab799d1840f539d3206ff674a81fea92b0acc5006338ced746ec1"
+  },
+  {
+    "path": "slides/Slides_17092026_with_resources.pptx",
+    "bytes": 23240321,
+    "sha256": "218bd1e9653995342fcc0d47bde7058cb1f8f48f366d1c50666aa3ee09d95124"
+  },
+  {
+    "path": "slides/Slides_17092026_with_resources.pdf",
+    "bytes": 15308834,
+    "sha256": "5a25a10b521295959d1283633a4ee2f5353e887310f94fe0a1bebc77411a9201"
   }
 ]

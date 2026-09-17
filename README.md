@@ -6,7 +6,11 @@ Practical scientific work with AI assistants and Codex desktop.
 
 ## Presentation
 
-[Download the 17 September 2026 presentation](slides/Slides_17092026.pptx) — 28 slides, PowerPoint format.
+[Download the updated presentation](slides/Slides_17092026_with_resources.pptx) — 29 slides, including scientific skills and literature MCP resources. [PDF](slides/Slides_17092026_with_resources.pdf).
+
+[Resource links and literature prompt](Resource_links.md) · [Three resources slides](slides/Scientific_resources.pptx).
+
+The update preserves the existing content and replaces two empty slides with three resource slides. [Earlier presentation](slides/Slides_17092026.pptx).
 
 ## Scientific figure exercise
 
