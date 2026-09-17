@@ -1,6 +1,6 @@
 # AI for science: workshop guide
 
-This guide accompanies the original 39-slide workshop. The published 17 September presentation has 46 slides; the slide numbers below refer to the original version.
+This guide accompanies the original 39-slide workshop. The published 17 September presentation has 28 slides; the slide numbers below refer to the original version.
 
 The workshop uses Codex desktop to turn a scientific request into an output that can be checked. Bring one small task from your own work, using material you are permitted to share.
 

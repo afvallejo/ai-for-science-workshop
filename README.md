@@ -6,7 +6,7 @@ Practical scientific work with AI assistants and Codex desktop.
 
 ## Presentation
 
-[Download the 17 September 2026 presentation](slides/Slides_17092026.pptx) — 46 slides, PowerPoint format.
+[Download the 17 September 2026 presentation](slides/Slides_17092026.pptx) — 28 slides, PowerPoint format.
 
 ## Start here
 

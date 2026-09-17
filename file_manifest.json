@@ -12,12 +12,12 @@
   {
     "path": "Participant_guide.md",
     "bytes": 4263,
-    "sha256": "7095b44a4df33e1858267a5c0214291a9c4c2daa8553d9692d48a71f48646576"
+    "sha256": "726a41915752794c990c7092766d2f9a7513a5c11cc7d802c2f552d8273d65be"
   },
   {
     "path": "README.md",
     "bytes": 1878,
-    "sha256": "03be5133b4e01f08f8d6d9aa9d0666602783c8a546950d09e6f28aeba3cdabff"
+    "sha256": "2ec3adc0f1f8d85235ff4307e637c4256d4916f664afef2b08523a0d2c5c93d8"
   },
   {
     "path": "Sources_and_further_reading.md",
@@ -61,7 +61,7 @@
   },
   {
     "path": "slides/Slides_17092026.pptx",
-    "bytes": 37836078,
-    "sha256": "af4e1166d88f762924d6cf8f75749aee1d257fa1dab8f34746a41e56b4ea8416"
+    "bytes": 23848657,
+    "sha256": "32e4c672c606bd9ee862a2064277e2fa55d82e6f012e45b45e8bd1f6b622fabf"
   }
 ]
