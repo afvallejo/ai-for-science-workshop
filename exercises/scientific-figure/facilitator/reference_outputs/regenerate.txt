@@ -1,0 +1,2 @@
+From the scientific-figure directory, choose a new output directory:
+python facilitator/reference_figure.py --data participant/round_1_naive/data.csv --out facilitator/reference_outputs_new

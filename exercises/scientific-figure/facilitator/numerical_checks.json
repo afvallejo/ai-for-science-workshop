@@ -1,0 +1,36 @@
+{
+  "source_data_sha256": "cf38ffb98dd92370171003d00b1136a4fa925dd794edb86c2c2f37cad5f2e830",
+  "identical_round_inputs": true,
+  "measurements": 80,
+  "cultures": 40,
+  "donors": 10,
+  "independent_decimal_check_all_40_endpoints": "PASS",
+  "regenerated_tables_and_png_byte_identical": true,
+  "mean_treatment_difference_pp": {
+    "Unstimulated": "-0.068",
+    "Stimulated": "-7.1635"
+  },
+  "worked_examples": [
+    {
+      "donor_id": "D01",
+      "treatment": "Vehicle",
+      "stimulation": "Stimulated",
+      "aliquots": [
+        "27.9",
+        "27.74"
+      ],
+      "culture_mean": "27.82"
+    },
+    {
+      "donor_id": "D01",
+      "treatment": "Compound_X",
+      "stimulation": "Stimulated",
+      "aliquots": [
+        "20.11",
+        "19.35"
+      ],
+      "culture_mean": "19.73"
+    }
+  ],
+  "scope": "Independent CSV/Decimal arithmetic checks. Reference is descriptive and synthetic. No participant model runs were executed."
+}

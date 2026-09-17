@@ -8,6 +8,10 @@ Practical scientific work with AI assistants and Codex desktop.
 
 [Download the 17 September 2026 presentation](slides/Slides_17092026.pptx) — 28 slides, PowerPoint format.
 
+## Scientific figure exercise
+
+[30-minute hands-on exercise](exercises/scientific-figure/README.md): create a figure using a naïve prompt, an advanced prompt and Plan mode. Includes identical synthetic datasets, copyable prompts, six teaching slides and a facilitator reference.
+
 ## Start here
 
 - [Participant guide](Participant_guide.md): task briefs, plan review and practical exercises.

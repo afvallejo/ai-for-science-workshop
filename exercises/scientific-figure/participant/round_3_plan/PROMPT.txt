@@ -1,0 +1,13 @@
+Plan the task below before executing it. First inspect the input files and available tools using read-only checks. Propose the data checks, aggregation, pairing, figure layout, outputs and verification steps. Explain any unresolved scientific decisions. Do not create files or run the analysis yet. Stop and wait for my review of the plan.
+
+Read data.csv and study_context.md. Create a descriptive scientific figure answering the stated treatment question separately for Unstimulated and Stimulated conditions.
+
+Before plotting, check the columns, missing values, unique measurement keys, donor coverage and value ranges. Expect 80 technical measurements from 40 cultures and 10 donors, with exactly two technical aliquots per culture. If the files disagree with the context, report the discrepancy before analysis.
+
+Use the arithmetic mean of the two aliquots as each culture's endpoint. Match conditions by donor_id. Show all 10 donor endpoints and make treatment pairing visible within each stimulation condition. If you plot treatment differences, use Compound_X minus Vehicle in percentage points. Keep stimulation conditions separate and give donors equal weight. Use descriptive summaries only, without hypothesis tests or significance stars.
+
+Choose a readable layout with labelled axes, units, a clear key and colours that remain distinguishable without colour alone. State the CD8 parent population, n=10 simulated donors, technical aggregation and synthetic origin in the legend. Use a conventional plotting library and generate the figure from the supplied numbers.
+
+Save figure.pdf, figure.png, plot_data.csv with all 40 culture endpoints, executable plotting code, figure_legend.md, software versions and the exact regeneration command in outputs/. Keep inputs unchanged. Do not invent metadata, exclude donors, install packages or use an external service. If a required tool is unavailable, report what is missing.
+
+Run the code, open the rendered figure and check labels, pairing, units and readability. Reopen the saved table, verify its values against the input and regenerate into a separate directory. Report what you actually checked and anything that remains unverified.

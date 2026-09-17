@@ -1,0 +1,1 @@
+Use data.csv and study_context.md to make a scientific figure showing how Compound_X affects CD8 T-cell activation with and without stimulation. Save the figure and the files requested in study_context.md in outputs/.
