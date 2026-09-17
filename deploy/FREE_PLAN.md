@@ -1,6 +1,11 @@
 # Free Render workshop deployment
 
-Prepared for 15 participants over two hours. This configuration is not evidence of a live deployment.
+Prepared for 15 participants over two hours. The free Python service was deployed and verified on 17 September 2026.
+
+Live site: https://ai-for-science-workshop.onrender.com
+Service: `srv-dalq8om7bikc73a7np9g`, Frankfurt, Free (512 MB, 0.1 CPU).
+Verified runtime commit: `94384ca4e63d96e969942b636f47ab19b5ae3f23`. Auto-deploy is off.
+The service was configured through the dashboard using these settings.
 
 Use `render.free.yaml` as the Blueprint path, or copy its settings into a Free Python web service. Do not deploy `render.yaml`, which still describes the paid persistent-disk option.
 

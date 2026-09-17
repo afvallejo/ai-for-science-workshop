@@ -1,5 +1,8 @@
 # Publish the existing workshop on Render
 
+> Current deployment: the Free service is live at https://ai-for-science-workshop.onrender.com. See `FREE_PLAN.md`. The instructions below describe the alternative paid persistent-disk setup; do not apply it unless paid hosting is separately authorised.
+> The original ZIP remains unchanged. `prepare_workshop.py` applies the focused layout-ID merger correction from `fix_layout_ids.py` after checksum verification.
+
 This is a Render deployment, not a ChatGPT Site. The original course, interactive Plan-mode interview exercise, approval steps, computer-use prompt, slide uploads, gallery and PowerPoint combination are preserved without rewriting their source files.
 
 ## Status
