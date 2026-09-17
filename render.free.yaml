@@ -1,0 +1,29 @@
+# Free workshop deployment. Uploads are temporary and lost on restart or sleep.
+# Upload AI_for_science_workshop_v4.zip to this repository's root first.
+services:
+  - type: web
+    name: ai-for-science-workshop
+    runtime: python
+    region: frankfurt
+    plan: free
+    numInstances: 1
+    branch: main
+    autoDeployTrigger: "off"
+    buildCommand: python deploy/prepare_workshop.py && pip install -r website/requirements.txt
+    startCommand: python deploy/start_workshop.py
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.13.15"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: WORKSHOP_DATA
+        value: /tmp/ai-science-workshop
+      - key: WORKSHOP_HOST_KEY
+        generateValue: true
+      - key: WORKSHOP_CREATE_TEST_ROOM
+        value: "true"
+      - key: WORKSHOP_TEST_ROOM_CODE
+        value: SCITEST2
+      - key: WORKSHOP_TEST_ROOM_KEY
+        generateValue: true
