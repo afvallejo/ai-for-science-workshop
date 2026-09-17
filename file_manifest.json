@@ -1,0 +1,67 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 75,
+    "sha256": "b15fcdcce19f0ca98c8a527236f7a40cf9caa071992f3ea199e182d0fab9709f"
+  },
+  {
+    "path": "Flow_cytometry_demo_brief.md",
+    "bytes": 2288,
+    "sha256": "045930eff34c154aa6f8278484dffe8a8db2b1cac6f16e62a9c4bfb0a00a3a2f"
+  },
+  {
+    "path": "Participant_guide.md",
+    "bytes": 4263,
+    "sha256": "7095b44a4df33e1858267a5c0214291a9c4c2daa8553d9692d48a71f48646576"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1878,
+    "sha256": "03be5133b4e01f08f8d6d9aa9d0666602783c8a546950d09e6f28aeba3cdabff"
+  },
+  {
+    "path": "Sources_and_further_reading.md",
+    "bytes": 4078,
+    "sha256": "97816abb55bb418a16d06747c9f7fba9967f0c467bf9893146d424c6c5a1378f"
+  },
+  {
+    "path": "demo/README.md",
+    "bytes": 1108,
+    "sha256": "4cf53253492a1612705a322bdec4919e338d125d7996b07483bed7a244afc1c3"
+  },
+  {
+    "path": "demo/expected_audit.json",
+    "bytes": 596,
+    "sha256": "57b7f9d7f76b62d27d7d90d652150ad77ef48c378a6ac79767ea7e5fb3079c92"
+  },
+  {
+    "path": "demo/expected_audit.md",
+    "bytes": 1869,
+    "sha256": "fc73dbec2a43fddeceef3b4dc63aaf95bcf61c58713adb27c7ca7f799350dfdf"
+  },
+  {
+    "path": "demo/inputs/counts.csv",
+    "bytes": 175,
+    "sha256": "485aefe57b6c6ef346595d9fa347c383eda49d303690f250327324d2b759400d"
+  },
+  {
+    "path": "demo/inputs/metadata.csv",
+    "bytes": 120,
+    "sha256": "93212a6b6ac11ea37561ed66001f6f71ecc4b283b727a8bbef158d55fa519178"
+  },
+  {
+    "path": "demo/prepared_audit.json",
+    "bytes": 595,
+    "sha256": "f99cb11f647bc2dd352b286ef860c2c2a398a7d6439bbad33c3fb57b02c0eb53"
+  },
+  {
+    "path": "model_credit_examples.csv",
+    "bytes": 261,
+    "sha256": "1e82ae410adc29aef64fca60be7fbd7f71e2f6248c6c335339848b9fbe2b93cd"
+  },
+  {
+    "path": "slides/Slides_17092026.pptx",
+    "bytes": 37836078,
+    "sha256": "af4e1166d88f762924d6cf8f75749aee1d257fa1dab8f34746a41e56b4ea8416"
+  }
+]

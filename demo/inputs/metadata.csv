@@ -1,0 +1,8 @@
+sample_id,donor_id,group,batch
+S01,D01,A,B1
+S03,D03,A,B1
+S02,D02,A,B2
+S03,D03,A,B1
+S04,D04,B,B2
+S05,D05,B,
+S06,D06,B,B1

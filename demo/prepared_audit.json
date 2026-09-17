@@ -1,0 +1,31 @@
+{
+  "metadata_rows": 7,
+  "unique_metadata_samples": 6,
+  "count_matrix_shape": [
+    4,
+    6
+  ],
+  "duplicate_metadata_samples": {
+    "S03": 2
+  },
+  "duplicate_matrix_samples": [],
+  "metadata_only": [
+    "S06"
+  ],
+  "matrix_only": [
+    "S99"
+  ],
+  "missing_metadata": [
+    [
+      "S05",
+      "batch"
+    ]
+  ],
+  "shared_sample_count": 5,
+  "same_shared_order": false,
+  "feature_ids_unique": true,
+  "count_min": 0,
+  "count_max": 51,
+  "raw_count_provenance": "Numbers authored solely for this synthetic demonstration; no biological assay provenance.",
+  "analysis_ready": false
+}

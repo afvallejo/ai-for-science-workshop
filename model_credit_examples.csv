@@ -1,0 +1,4 @@
+model,uncached_input_tokens,output_tokens,input_credits_per_million,output_credits_per_million,total_credits,rate_date
+GPT-5.6 Luna,20000,5000,5,30,0.25,2026-09-09
+GPT-5.6 Terra,20000,5000,50,300,2.50,2026-09-09
+GPT-6 Astra,20000,5000,250,1250,11.25,2026-09-09
