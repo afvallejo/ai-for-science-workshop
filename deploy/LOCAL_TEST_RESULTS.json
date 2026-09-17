@@ -1,0 +1,26 @@
+{
+  "test_environment": "3.13.5",
+  "scope": "Local ASGI clients and independent-process SQLite restart tests. Not a live Render deployment or real-device test.",
+  "checks": {
+    "runtime_files_byte_identical": true,
+    "runtime_files_compared": 30,
+    "health": true,
+    "course_page": true,
+    "room_page": true,
+    "test_room_created": true,
+    "management_key_works": true,
+    "two_independent_uploads": true,
+    "shared_gallery": true,
+    "combined_deck_export": true,
+    "combined_deck_has_two_slides": true,
+    "unauthorised_export_denied": true,
+    "cross_origin_write_denied": true,
+    "private_storage_not_served": true,
+    "restart_keeps_slides_and_closed_state": true,
+    "deleted_test_room_not_recreated": true,
+    "missing_disk_refused": true
+  },
+  "all_passed": true,
+  "blueprint_validation": "YAML parsed locally; external SchemaStore validation could not be completed because its host was not resolvable from the test runtime. Render-side validation has not run.",
+  "live_deployment_verified": false
+}
