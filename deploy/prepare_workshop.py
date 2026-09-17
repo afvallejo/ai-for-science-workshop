@@ -61,7 +61,9 @@ def prepare() -> Path:
         if destination.exists():
             shutil.rmtree(destination)
         staging.rename(destination)
-    print(f"Verified and prepared {len(seen)} runtime files. Original site bytes preserved.")
+    from fix_layout_ids import apply
+    apply(destination)
+    print(f"Verified and prepared {len(seen)} runtime files; applied unique layout-ID merger fix.")
     return destination
 
 

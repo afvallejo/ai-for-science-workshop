@@ -6,3 +6,6 @@ __pycache__/
 demo/live_outputs/
 .env
 .env.*
+
+# Local live-test receipts contain private submission keys.
+workshop_render_verification/
